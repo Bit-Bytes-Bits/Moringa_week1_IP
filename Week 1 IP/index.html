@@ -6,67 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vallie's Estate</title>
     <link rel="stylesheet" href="Assets/Styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    
     <div class="topbar">
-      <h2>Vallie's Estate</h2>
       <ul class="navbar">
-      <li>Home</li>
-      <li>Rent</li>
-      <li>Land</li>
-      <li>Agent</li>
+        <li><h2 class="top">Vallie's Estate</h2></li>
+        <li>Home</li>
+        <li>Rent</li>
+        <li>Land</li>
+        <li>Agent</li>
+        <li>Contact Us</li>
+        <li>
+          <button><h4>Get Started</h4></button>
+        </li>
       </ul>
-      <button><h4>Get Started</h4></button>
     </div>
+
+    <br />
     <hr />
+    <div class="help">
+      <div class="help-left">
+        <h1>
+          Helping you find the <br />
+          property of your <br />
+          dreams
+        </h1>
 
-    <div>
-      <h1>Helping you find the property of your dreams</h1>
+        <p>
+          Creating quality urban lifestyles, building <br />
+          stronger communities
+        </p>
 
-      <p>Creating quality urban lifestyles, building stronger communities</p>
+        <ul>
+          <li><button>Learn More</button></li>
+          <li><img src="Assets/Images/playicon.png" alt="" /></li>
+        </ul>
 
-      <button>Learn More</button>
-      <!-- icon -->
+        <!-- icon -->
+      </div>
 
-      <div>
+      <div class="help-right">
         <!-- For image -->
         <img src="assets/Images/image 1.png" alt="" />
       </div>
-
-      <hr />
     </div>
 
     <!-- where search is at bottom -->
-    <div>
-      <ul type="none">
-        <li>Location</li>
-        <li>Property Type</li>
-        <li>Max Price</li>
+
+    <div class="aboveproducts">
+      <ul>
+        <li>
+          Location
+          <option value="">Lekki</option>
+        </li>
+        <li>
+          Property Type
+          <option value="">Duplex</option>
+        </li>
+        <li>
+          Max Price
+          <option value="">$10,0000</option>
+        </li>
         <li><button>Search</button></li>
       </ul>
     </div>
 
-    <hr />
+    <div class="products">
+      <h2>Our Products</h2>
 
-    <p class="products">Our Products</p>
-
-    <p>How it works. <br />This is how our products works</p>
-
+      <p class="titleProduct">How it works. <br /></p>
+      <p class="belowTitle">This is how our products works</p>
+    </div>
     <!-- Our products page -->
 
-    <div>
+    <div class="our-products">
       <!-- find home -->
-      <div>
-        <img src="Assets/Images/address mark.png"  alt="" />
+      <div class="products-left">
+        <img src="Assets/Images/address mark.png" alt="" />
         <h2>Find Home</h2>
         <p>
           Our properties are located at prime areas wher by there won't be
@@ -75,8 +110,8 @@
       </div>
 
       <!-- Make Payments -->
-      <div>
-        <img src="Assets/Images/Smart house.png"  alt="" />
+      <div class="products-middle">
+        <img src="Assets/Images/Smart house.png" alt="" />
         <h2>Make Payments</h2>
         <p>
           Our estates come with good network, portable water, 24 hrs light and
@@ -85,12 +120,10 @@
       </div>
 
       <!-- Make it official -->
-      <div>
+      <div class="products-right">
         <img
           src="Assets/Images/Secure data protection with fingerprint and lock.png"
-          
-          alt=""
-        />
+          alt="" />
         <h2>Make it Official</h2>
         <p>
           We have been in business for <br />
@@ -104,46 +137,64 @@
     <hr />
     <br />
     <!-- why you should choose us -->
+
     <div class="choose">
-      <img src="Assets/Images/image 2.png" alt=""  />
-      <h2>Why you should choose us.</h2>
-      <p>Creating quality urban lifestyles, building stronger communities</p>
-      <div>
-        <ul type="none">
-          <li>World Class</li>
-          <li>Trusted</li>
+      <div class="choose-left">
+        <img src="Assets/Images/image 2.png" alt="" />
+      </div>
+      <div class="choose-right">
+        <h2>Why you should choose us.</h2>
+        <p>Creating quality urban lifestyles, building stronger communities</p>
+
+        <ul class="element">
+          <li><i class="fas fa-check-square"></i>World Class</li>
+          <li><i class="fas fa-check-square"></i>Trusted</li>
         </ul>
-        <ul type="none">
-          <li>Affordable</li>
-          <li>Amenities</li>
+        <ul class="element2">
+          <li><i class="fas fa-check-square"></i>Affordable</li>
+          <li><i class="fas fa-check-square"></i>Amenities</li>
         </ul>
       </div>
     </div>
 
-    <hr>
+    <hr />
 
     <!-- featured properties -->
-    <h2>Our Featured Properties</h2>
-    <p>
-      One of our biggest product to be featured and that has sold <br />
-      out the most.
-    </p>
+    <div class="feature">
+      <h2>Our Featured Properties</h2>
+      <p>
+        One of our biggest product to be featured and that has sold <br />
+        out the most.
+      </p>
 
-    <div>
-      <!-- 3 images -->
-      <div>
-        <img src="assets/Images/image 4.png"  alt="" /></div>
-        <p>The place <br> Lekki, phase 2</p>
-        <p>Duplex <br>$ 2,000</p>
-      
-      <div>
-        <img src="assets/Images/image 3.png"  alt="" /></div>
-        <p>IVY RORY <br> Lekki, phase 2</p>
-        <p>Duplex <br>$ 2,000</p>
-      <div>
-        <img src="assets/Images/image 5.png"  alt="" />
-        <p>IREXONA <br> Lekki, phase 2</p>
-        <p>Duplex <br>$ 2,000</p>
+      <div class="feature-1">
+        <!-- 3 images -->
+        <div>
+          <img src="assets/Images/image 4.png" alt="" />
+          <ul>
+            <li>The place <br />
+              Lekki, phase 2</li> 
+            <li>Duplex <br />$ 2,000</li>
+          </ul>
+        </div>
+
+        <div class="feature-middle">
+          <img src="assets/Images/image 3.png" alt="" />
+        </div>
+        <ul>
+          <li>IVY RORY <br />
+            Lekki, phase 2</li> 
+          <li>Duplex <br />$ 2,000</li>
+        </ul>
+
+        <div class="feature-right">
+          <img src="assets/Images/image 5.png" alt="" />
+          <ul>
+            <li>REXONA <br />
+              Lekki, phase 2</li> 
+            <li>Duplex <br />$ 2,000</li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -161,17 +212,32 @@
       <div>
         <h3>Alex Godwin</h3>
         <p>South Africa</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, natus quibusdam ipsam fugit rerum dignissimos doloribus totam aut rem sint. Tempora suscipit ut exercitationem distinctio deserunt modi in enim accusantium?</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum,
+          natus quibusdam ipsam fugit rerum dignissimos doloribus totam aut rem
+          sint. Tempora suscipit ut exercitationem distinctio deserunt modi in
+          enim accusantium?
+        </p>
       </div>
       <div>
         <h3>Alex Godwin</h3>
         <p>South Africa</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, natus quibusdam ipsam fugit rerum dignissimos doloribus totam aut rem sint. Tempora suscipit ut exercitationem distinctio deserunt modi in enim accusantium?</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum,
+          natus quibusdam ipsam fugit rerum dignissimos doloribus totam aut rem
+          sint. Tempora suscipit ut exercitationem distinctio deserunt modi in
+          enim accusantium?
+        </p>
       </div>
       <div>
         <h3>Alex Godwin</h3>
         <p>South Africa</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, natus quibusdam ipsam fugit rerum dignissimos doloribus totam aut rem sint. Tempora suscipit ut exercitationem distinctio deserunt modi in enim accusantium?</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum,
+          natus quibusdam ipsam fugit rerum dignissimos doloribus totam aut rem
+          sint. Tempora suscipit ut exercitationem distinctio deserunt modi in
+          enim accusantium?
+        </p>
       </div>
     </div>
 
@@ -179,40 +245,43 @@
 
     <hr />
     <footer>
-        <div>
-            <h2>Vallie's Estate</h2>
-            <p>Solution for easy and flexible house hunting. You can trust us anywhere through this platform</p>
-        </div>
+      <div>
+        <h2>Vallie's Estate</h2>
+        <p>
+          Solution for easy and flexible house hunting. You can trust us
+          anywhere through this platform
+        </p>
+      </div>
 
-        <div>
-            <h3>Property</h3>
-            <ul type="none">
-                <li>Learning Modules</li>
-                <li>Partnership</li>
-                <li>Watch demo</li>
-                <li>Event</li>
-            </ul>
-        </div>
+      <div>
+        <h3>Property</h3>
+        <ul type="none">
+          <li>Learning Modules</li>
+          <li>Partnership</li>
+          <li>Watch demo</li>
+          <li>Event</li>
+        </ul>
+      </div>
 
-        <div>
-            <h3>About</h3>
-            <ul type="none">
-                <li>Our Company</li>
-                <li>Career</li>
-                <li>Investor Relations</li>
-                <li>Social Impact</li>
-            </ul>
-        </div>
+      <div>
+        <h3>About</h3>
+        <ul type="none">
+          <li>Our Company</li>
+          <li>Career</li>
+          <li>Investor Relations</li>
+          <li>Social Impact</li>
+        </ul>
+      </div>
 
-        <div>
-            <h3>Resources</h3>
-            <ul type="none">
-                <li>Contact</li>
-                <li>Give Feedback</li>
-                <li>System Status</li>
-                <li>Privacy Policy</li>
-            </ul>
-        </div>
+      <div>
+        <h3>Resources</h3>
+        <ul type="none">
+          <li>Contact</li>
+          <li>Give Feedback</li>
+          <li>System Status</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
