@@ -1,0 +1,33 @@
+/*
+Blue: #0F298B
+white: #FAFAFA
+light blue: #2549D3
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.products{
+    font-size: 40px;
+}
+
+.topbar h2{
+    font-family: 'Oleo Script', cursive;
+}
+
+
+button{
+    background-color: #2549D3;
+    
+}
+
+footer{
+    background-color: #0F298B; 
+}
+
+footer div h2{
+    font-family: 'Oleo Script';
+    font-weight: 100;
+}
