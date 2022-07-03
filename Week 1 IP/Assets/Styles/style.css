@@ -12,7 +12,7 @@ light blue: #2549D3
 body {
     /* max-width: 100%; */
     border: solid red;
-    height: 6000px;
+    /* height: 6000px; */
 }
 
 .container {
@@ -20,7 +20,6 @@ body {
     min-width: 500px;
     margin: auto; */
     border: solid blue;
-    height: 6000px;
 }
 
 .top {
@@ -350,7 +349,7 @@ button {
     border: solid yellowgreen;
     margin-bottom: 30px;
     text-align: center;
-    height: 600px;
+    height: 700px;
 }
 
 .esteemed h2{
@@ -370,7 +369,23 @@ button {
     border: solid red;
     float: left;
     width: 30%;
-    height: 300px;
+    height: 400px;
+}
+
+.esteemed-left h3{
+    font-size: 30px;
+    font-family: 'Space Grotesk';
+    padding-bottom: 1rem;
+}
+
+.country{
+    font-size: 10px;
+    font-family: 'Space Grotesk';
+}
+
+.esteemed-left p{
+    font-size: 30px;
+    font-family: 'Space Grotesk';
 }
 
 .esteemed button{
@@ -391,18 +406,47 @@ button {
 
 .foot{
     background-color: #0F298B;
+    display: inline-block;
+    width: 100%;
+    /* height: auto; */
+   
+
 }
 
 .footer {
-    margin: 20px;
+    margin: 40px;
     border: solid red;
     float: left;
     width: 20%;
-    height: 300px;
+    height: 500px;
+    color: #FAFAFA;
+    margin-top: 50px;
+}
+
+.footer p{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+}
+
+.footer h3{
+    font-family: 'Space Grotesk';
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.footer ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+    list-style: none;
 }
 
 footer div h2 {
     font-family: 'Oleo Script';
-    font-weight: 100;
-    font-size: 1e;
+    font-weight: 400;
+    font-size: 30px;
 }
