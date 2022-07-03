@@ -51,16 +51,19 @@ ul.navbar li button {
 }
 
 .help {
-    display: table;
+    /* display: table; */
+    border: solid green;
+    height: 700px;
 }
 
 .help-left {
     margin-top: 100px;
     margin-left: 100px;
     float: left;
-    height: 1000px;
-    width: 50%;
+    height: 500px;
+    width: 40%;
     font-family: 'Space Grotesk';
+    border: solid black;
 }
 
 .help-left h1 {
@@ -99,11 +102,12 @@ ul.navbar li button {
     width: 25%;
     margin-top: 20px;
     display: inline-block;
+    border: solid black;
 }
 
 .help-right img {
     display: inline-block;
-    width: 1400px;
+    width: 100%;
 }
 
 .aboveproducts {
@@ -162,25 +166,25 @@ p.titleProduct {
 
 .our-products {
     /* display: block; */
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 80px;
     text-align: center;
     height: 600px;
-    width: 2500px;
-    border: solid black;
+    /* width: 100%; */
+    border: solid orange;
 }
 
 .products-left {
     /* margin-left: 10px; */
     float: left;
-    width: 25%;
+    width: 30%;
     height: 500px;
     border: solid black;
     /* padding: 40px; */
 }
 
 .products-middle {
-    margin-left: 200px;
+    margin-left: 30px;
     float: left;
     width: 30%;
     height: 500px;
@@ -188,9 +192,9 @@ p.titleProduct {
 }
 
 .products-right {
-    margin-left: 50px;
+    margin-left: 30px;
     float: left;
-    width: 25%;
+    width: 30%;
     height: 500px;
     border: solid black;
 }
@@ -200,6 +204,7 @@ p.titleProduct {
     border: solid red;
     height: 1000px;
     /* width: 100%px */
+    margin-left: 100px;
 }
 
 .choose-left {
@@ -212,8 +217,8 @@ p.titleProduct {
 /* Revisit */
 .choose-left img{
     width: 100%;
-    height: 100%;
-    object-fit: fill;
+    height: 700px;
+    position: relative;
 }
 
 .choose-right {
@@ -267,6 +272,7 @@ p.titleProduct {
     margin-top: 200px;
     border: solid green;
     height: 1000px;
+    margin-left: 100px;
 }
 
 .feature h2 {
@@ -296,7 +302,7 @@ p.titleProduct {
 }
 
 .feature-middle {
-    margin-left: 50px;
+    margin-left: 30px;
     float: left;
     height: 700px;
     width: 30%;
@@ -309,7 +315,7 @@ p.titleProduct {
 
 .feature-right {
     width: 30%;
-    margin-left: 50px;
+    margin-left: 30px;
     float: left;
     height: 700px;
     border: solid black;
@@ -357,6 +363,7 @@ button {
     margin-bottom: 30px;
     text-align: center;
     height: 700px;
+    margin-left: 100px;
 }
 
 .esteemed h2 {
