@@ -9,8 +9,20 @@ light blue: #2549D3
     padding: 0;
 }
 
+body {
+    /* max-width: 100%; */
+    border: solid red;
+}
+
+.container {
+    /* width: 100%;
+    min-width: 500px;
+    margin: auto; */
+    border: solid blue;
+}
+
 .top {
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Oleo Script';
 }
 
 ul.navbar {
@@ -90,6 +102,7 @@ ul.navbar li button {
 
 .help-right img {
     display: inline-block;
+    width: 1400px;
 }
 
 .aboveproducts {
@@ -242,23 +255,74 @@ p.titleProduct {
     margin-bottom: 1.5rem;
 }
 
-.feature{
-    /* text-align: center; */
+.feature {
     margin-top: 200px;
+    border: solid green;
+    height:1500px ;
 }
-.feature h2{
+
+.feature h2 {
     color: #0F298B;
     font-family: 'Space Grotesk';
     font-size: 50px;
     text-align: center;
 }
 
-.feature P{
+.feature P {
     color: black;
     text-align: center;
     font-size: 30px;
     font-family: 'Space Grotesk';
     margin-bottom: 10px;
+}
+
+.feature-left{
+    width: 30%;
+    float: left;
+    height: 700px;
+    border: solid black;
+}
+
+.feature-left img{
+    width: 100%
+}
+
+.feature-middle{
+    margin-left: 50px;
+    float: left;
+    height: 700px;
+    width: 30%;
+    border: solid black;
+}
+
+.feature-middle img{
+    width: 100%
+}
+
+.feature-right{
+    width: 30%;
+    margin-left: 50px;
+    float: left;
+    height: 700px;
+    border: solid black;
+}
+
+.feature-right img{
+    width: 100%
+}
+
+.feature ul li{
+    margin-top: 2rem;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Space Grotesk';
+}
+
+.price{
+    margin-left: 300px;
+    font-size: 20px;
+   
 }
 
 
@@ -274,4 +338,5 @@ footer {
 footer div h2 {
     font-family: 'Oleo Script';
     font-weight: 100;
+    font-size: 1e;
 }
