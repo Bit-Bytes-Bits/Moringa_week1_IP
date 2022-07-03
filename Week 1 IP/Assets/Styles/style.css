@@ -9,20 +9,7 @@ light blue: #2549D3
     padding: 0;
 }
 
-body {
-    /* max-width: 100%; */
-    border: solid red;
-    /* height: 6000px; */
-}
-
-.container {
-    /* width: 100%;
-    min-width: 500px;
-    margin: auto; */
-    border: solid blue;
-}
 .topbar{
-    border: solid yellow;
     height: 130px;
     padding-top: 25px;
     width: 100%;
@@ -32,21 +19,13 @@ body {
 .top {
     font-family: 'Oleo Script';
     float: left;
-    border: solid red;
     font-size: 40px;
-    /* margin-left: 100px; */
 }
 
 ul.navbar {
-    /* text-align: center; */
     margin-left: 10px;
-    /* margin-top: 20px; */
-    /* padding-left: 30px; */
     float: left;
-    /* width: 60%; */
-    border: solid orange;
     height: 100px;
-    
 }
 
 ul.navbar li {
@@ -72,7 +51,6 @@ ul.navbar li {
 }
 
 .help {
-    border: solid green;
     height: 900px;
 }
 
@@ -83,7 +61,6 @@ ul.navbar li {
     height: 600px;
     width: 40%;
     font-family: 'Space Grotesk';
-    border: solid black;
 }
 
 .help-left h1 {
@@ -124,14 +101,11 @@ ul.navbar li {
     float: left;
     width: 50%;
     margin-top: 20px;
-    /* display: inline-block; */
-    border: solid red;
     height: 850px;
 }
 
 .help-right img {
     height: 800px;
-    /* position: relative; */
     width: 100%
 }
 
@@ -140,7 +114,6 @@ ul.navbar li {
     margin-top: 30px;
     padding: 5px;
     margin-bottom: 30px;
-    /* border: solid red; */
     margin-right: 50px;
     border-radius: 20px;
     box-shadow:4px 3px 8px 1px #969696;
@@ -183,6 +156,7 @@ ul.navbar li {
     font-size: 40px;
     color: #0F298B;
     font-family: 'Space Grotesk';
+    margin-left: 30px;
 }
 
 p.titleProduct {
@@ -200,22 +174,34 @@ p.titleProduct {
 }
 
 .our-products {
-    /* display: block; */
     margin-left: 100px;
     margin-top: 80px;
     text-align: center;
     height: 600px;
-    /* width: 100%; */
-    border: solid orange;
+}
+
+.our-products h2{
+    font-family: 'Space Grotesk';
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.our-products img{
+    margin-top: 50px;
+    height: 150px;
+}
+
+.our-products p{
+    font-family: 'Space Grotesk';
+    padding: 20px, 20px;
+    font-size: 20px;
 }
 
 .products-left {
-    /* margin-left: 10px; */
     float: left;
     width: 30%;
     height: 500px;
-    border: solid black;
-    /* padding: 40px; */
+    box-shadow:3px 3px 3px 20px #FAFAFA;
 }
 
 .products-middle {
@@ -223,7 +209,7 @@ p.titleProduct {
     float: left;
     width: 30%;
     height: 500px;
-    border: solid black;
+    box-shadow:3px 3px 3px 20px #FAFAFA;
 }
 
 .products-right {
@@ -231,36 +217,29 @@ p.titleProduct {
     float: left;
     width: 30%;
     height: 500px;
-    border: solid black;
+    box-shadow:3px 3px 3px 20px #FAFAFA;
 }
 
 .choose {
-    /* display: inline-block; */
-    border: solid red;
     height: 1000px;
-    /* width: 100%px */
     margin-left: 100px;
 }
 
 .choose-left {
-    border: solid black;
     float: left;
     width: 50%;
     padding-bottom: 10rem;
     height: 700px;
 }
 
-/* Revisit */
 .choose-left img {
     width: 100%;
     height: 700px;
-    /* position: relative; */
 }
 
 .choose-right {
     margin-left: 50px;
     margin-top: 200px;
-    border: solid black;
     float: left;
     width: 40%;
     height: 500px;
@@ -281,32 +260,30 @@ p.titleProduct {
     padding-bottom: 30px;
 }
 
-.element {
+.checklist-left {
     list-style: none;
     float: left;
     font-family: 'Space Grotesk';
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.element li {
+.checklist-left li {
     margin-bottom: 1.5rem;
 }
 
-.element2 {
+.checklist-right {
     list-style: none;
     float: left;
     padding-left: 10rem;
     font-family: 'Space Grotesk';
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.element2 li {
+.checklist-right li {
     margin-bottom: 1.5rem;
 }
 
 .feature {
-    margin-top: 200px;
-    border: solid green;
     height: 1000px;
     margin-left: 100px;
 }
@@ -329,8 +306,8 @@ p.titleProduct {
 .feature-left {
     width: 30%;
     float: left;
-    height: 700px;
-    border: solid black;
+    height: 400px;
+    box-shadow:3px 9px 9px 20px #FAFAFA;
 }
 
 .feature-left img {
@@ -338,11 +315,11 @@ p.titleProduct {
 }
 
 .feature-middle {
-    margin-left: 30px;
+    margin-left: 40px;
     float: left;
-    height: 700px;
+    height: 400px;
     width: 30%;
-    border: solid black;
+    box-shadow:3px 9px 9px 20px #FAFAFA
 }
 
 .feature-middle img {
@@ -351,10 +328,11 @@ p.titleProduct {
 
 .feature-right {
     width: 30%;
-    margin-left: 30px;
+    margin-left: 40px;
     float: left;
-    height: 700px;
-    border: solid black;
+    height: 400px;
+    box-shadow:13px 9px 9px 20px #FAFAFA;
+    
 }
 
 .feature-right img {
@@ -377,16 +355,16 @@ p.titleProduct {
 }
 
 .feature button {
-    /* display: block; */
     color: #FAFAFA;
     border-radius: 15px;
     width: 150px;
     height: 50px;
     border: none;
     float: right;
-    margin-right: 5rem;
-    margin-top: 5rem;
+    display: block;
+    margin-top: 30px;
     font-size: 20px;
+    margin-right: 100px;
 }
 
 button {
@@ -395,7 +373,6 @@ button {
 }
 
 .esteemed {
-    border: solid yellowgreen;
     margin-bottom: 30px;
     text-align: center;
     height: 800px;
@@ -416,10 +393,10 @@ button {
 
 .esteemed-left {
     margin: 20px;
-    border: solid red;
     float: left;
     width: 30%;
     height: 500px;
+    box-shadow:13px 20px 1px 2px #FAFAFA;
 }
 
 .esteemed-left h3 {
@@ -456,7 +433,6 @@ button {
 
 .footer {
     margin: 40px;
-    border: solid red;
     float: left;
     width: 20%;
     height: 500px;
@@ -467,7 +443,7 @@ button {
 .footer p {
     margin: 20px;
     font-size: 30px;
-    /* font-family: 'Space Grotesk'; */
+    font-family: 'Space Grotesk';
     font-weight: normal;
 }
 
@@ -481,8 +457,7 @@ button {
 .footer ul li {
     margin-bottom: 30px;
     font-size: 30px;
-    /* font-family: 'Space Grotesk'; */
-    font-weight: 50;
+    font-weight: small;
     list-style: none;
 }
 
