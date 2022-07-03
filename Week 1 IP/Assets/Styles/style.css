@@ -196,18 +196,24 @@ p.titleProduct {
 }
 
 .choose {
-    display: inline-block;
-    border: solid black;
+    /* display: inline-block; */
+    border: solid red;
     height: 1000px;
-    width: 2500px
+    /* width: 100%px */
 }
 
 .choose-left {
     border: solid black;
     float: left;
-    width: 60%;
+    width: 50%;
     padding-bottom: 10rem;
-    height: 800px;
+    height: 700px;
+}
+/* Revisit */
+.choose-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 .choose-right {
@@ -224,6 +230,7 @@ p.titleProduct {
     color: #0F298B;
     font-size: 50px;
     font-weight: 600;
+    float: left;
 }
 
 .choose-right p {
@@ -259,7 +266,7 @@ p.titleProduct {
 .feature {
     margin-top: 200px;
     border: solid green;
-    height:1000px ;
+    height: 1000px;
 }
 
 .feature h2 {
@@ -277,18 +284,18 @@ p.titleProduct {
     margin-bottom: 10px;
 }
 
-.feature-left{
+.feature-left {
     width: 30%;
     float: left;
     height: 700px;
     border: solid black;
 }
 
-.feature-left img{
+.feature-left img {
     width: 100%
 }
 
-.feature-middle{
+.feature-middle {
     margin-left: 50px;
     float: left;
     height: 700px;
@@ -296,11 +303,11 @@ p.titleProduct {
     border: solid black;
 }
 
-.feature-middle img{
+.feature-middle img {
     width: 100%
 }
 
-.feature-right{
+.feature-right {
     width: 30%;
     margin-left: 50px;
     float: left;
@@ -308,11 +315,11 @@ p.titleProduct {
     border: solid black;
 }
 
-.feature-right img{
+.feature-right img {
     width: 100%
 }
 
-.feature ul li{
+.feature ul li {
     margin-top: 2rem;
     list-style: none;
     display: inline-block;
@@ -321,14 +328,14 @@ p.titleProduct {
     font-size: 20px;
 }
 
-.price{
+.price {
     margin-left: 300px;
     font-size: 20px;
-   
+
 }
 
-.feature button{
-    display: block;
+.feature button {
+    /* display: block; */
     color: #FAFAFA;
     border-radius: 15px;
     width: 150px;
@@ -345,26 +352,26 @@ button {
 
 }
 
-.esteemed{
+.esteemed {
     border: solid yellowgreen;
     margin-bottom: 30px;
     text-align: center;
     height: 700px;
 }
 
-.esteemed h2{
+.esteemed h2 {
     font-size: 50px;
     font-family: 'Space Grotesk';
     color: #0F298B;
 }
 
-#esteemed-sub{
+#esteemed-sub {
     font-size: 30px;
     font-family: 'Space Grotesk';
     padding-bottom: 1rem;
 }
 
-.esteemed-left{
+.esteemed-left {
     margin: 20px;
     border: solid red;
     float: left;
@@ -372,23 +379,24 @@ button {
     height: 400px;
 }
 
-.esteemed-left h3{
-    font-size: 30px;
+.esteemed-left h3 {
+    font-size: 40px;
     font-family: 'Space Grotesk';
     padding-bottom: 1rem;
 }
 
-.country{
-    font-size: 10px;
-    font-family: 'Space Grotesk';
-}
-
-.esteemed-left p{
+.esteemed-left p {
+    margin-top: 2rem;
     font-size: 30px;
     font-family: 'Space Grotesk';
 }
 
-.esteemed button{
+.country {
+    font-size: px;
+    font-family: 'Space Grotesk';
+}
+
+.esteemed button {
     margin: 50px;
     color: #FAFAFA;
     border-radius: 15px;
@@ -396,21 +404,11 @@ button {
     height: 50px;
     float: right;
 }
-/*
-.esteemed-right{
-    border: solid red;
-    float: left;
-    width: 30%;
-    height: 300px;
-} */
 
-.foot{
+.foot {
     background-color: #0F298B;
     display: inline-block;
     width: 100%;
-    /* height: auto; */
-   
-
 }
 
 .footer {
@@ -423,25 +421,25 @@ button {
     margin-top: 50px;
 }
 
-.footer p{
+.footer p {
     margin: 20px;
-    font-size: 20px;
-    font-family: 'Space Grotesk';
+    font-size: 30px;
+    /* font-family: 'Space Grotesk'; */
     font-weight: normal;
 }
 
-.footer h3{
+.footer h3 {
     font-family: 'Space Grotesk';
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
     margin-bottom: 20px;
 }
 
-.footer ul li{
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-family: 'Space Grotesk';
-    font-weight: normal;
+.footer ul li {
+    margin-bottom: 30px;
+    font-size: 30px;
+    /* font-family: 'Space Grotesk'; */
+    font-weight: 50;
     list-style: none;
 }
 
