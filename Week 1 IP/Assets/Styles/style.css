@@ -12,6 +12,7 @@ light blue: #2549D3
 body {
     /* max-width: 100%; */
     border: solid red;
+    height: 6000px;
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
     min-width: 500px;
     margin: auto; */
     border: solid blue;
+    height: 6000px;
 }
 
 .top {
@@ -258,7 +260,7 @@ p.titleProduct {
 .feature {
     margin-top: 200px;
     border: solid green;
-    height:1500px ;
+    height:1000px ;
 }
 
 .feature h2 {
@@ -315,8 +317,9 @@ p.titleProduct {
     margin-top: 2rem;
     list-style: none;
     display: inline-block;
-    text-align: center;
+    padding-left: 10px;
     font-family: 'Space Grotesk';
+    font-size: 20px;
 }
 
 .price{
@@ -325,14 +328,77 @@ p.titleProduct {
    
 }
 
+.feature button{
+    display: block;
+    color: #FAFAFA;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    font-size: 20px;
+}
 
 button {
     background-color: #2549D3;
 
 }
 
-footer {
+.esteemed{
+    border: solid yellowgreen;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 600px;
+}
+
+.esteemed h2{
+    font-size: 50px;
+    font-family: 'Space Grotesk';
+    color: #0F298B;
+}
+
+#esteemed-sub{
+    font-size: 30px;
+    font-family: 'Space Grotesk';
+    padding-bottom: 1rem;
+}
+
+.esteemed-left{
+    margin: 20px;
+    border: solid red;
+    float: left;
+    width: 30%;
+    height: 300px;
+}
+
+.esteemed button{
+    margin: 50px;
+    color: #FAFAFA;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+/*
+.esteemed-right{
+    border: solid red;
+    float: left;
+    width: 30%;
+    height: 300px;
+} */
+
+.foot{
     background-color: #0F298B;
+}
+
+.footer {
+    margin: 20px;
+    border: solid red;
+    float: left;
+    width: 20%;
+    height: 300px;
 }
 
 footer div h2 {
