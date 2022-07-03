@@ -21,46 +21,66 @@ body {
     margin: auto; */
     border: solid blue;
 }
+.topbar{
+    border: solid yellow;
+    height: 130px;
+    padding-top: 25px;
+    width: 100%;
+    margin-left: 100px;
+}
 
 .top {
     font-family: 'Oleo Script';
+    float: left;
+    border: solid red;
+    font-size: 40px;
+    /* margin-left: 100px; */
 }
 
 ul.navbar {
-    list-style: none;
     /* text-align: center; */
-    margin-left: 100px;
-    margin-top: 20px;
-    padding: 5px;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+    /* padding-left: 30px; */
+    float: left;
+    /* width: 60%; */
+    border: solid orange;
+    height: 100px;
+    
 }
 
 ul.navbar li {
-    margin-left: 30px;
+    list-style: none;
+    text-align: center;
     display: inline-block;
-    padding-right: 50px;
+    padding-top: 20px;
     font-family: 'Space Grotesk';
+    font-size: 30px;
+    margin-left: 100px;
 }
 
-ul.navbar li button {
-
+.topbar button {
+    float: left;
+    margin-left: 150px;
     color: #FAFAFA;
-    border-radius: 5px;
-    width: 120px;
-    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
     border: none;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
 }
 
 .help {
-    /* display: table; */
     border: solid green;
-    height: 700px;
+    height: 900px;
 }
 
 .help-left {
     margin-top: 100px;
     margin-left: 100px;
     float: left;
-    height: 500px;
+    height: 600px;
     width: 40%;
     font-family: 'Space Grotesk';
     border: solid black;
@@ -81,58 +101,73 @@ ul.navbar li button {
     list-style: none;
     display: inline-block;
     text-align: center;
+    margin-top: 40px;
 }
 
-.help-left ul li img {
+.help-left ul li i {
     margin-left: 50px;
-    height: 33px;
+    font-size: 2em;
 
 }
 
 .help-left ul button {
     font-size: 20px;
     border-radius: 10px;
-    padding: 0.5rem;
+    padding: 1rem;
     color: #FAFAFA;
     font-family: 'Space Grotesk';
     margin-top: 50px;
+    border: none;
 }
 
 .help-right {
-    width: 25%;
+    float: left;
+    width: 50%;
     margin-top: 20px;
-    display: inline-block;
-    border: solid black;
+    /* display: inline-block; */
+    border: solid red;
+    height: 850px;
 }
 
 .help-right img {
-    display: inline-block;
-    width: 100%;
+    height: 800px;
+    /* position: relative; */
+    width: 100%
 }
 
 .aboveproducts {
-    margin-left: 30%;
-    margin-top: 80px;
+    margin-left: 200px;
+    margin-top: 30px;
     padding: 5px;
     margin-bottom: 30px;
+    /* border: solid red; */
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow:4px 3px 8px 1px #969696;
+    width: 80%;
 }
 
 .aboveproducts li {
     list-style: none;
     margin-left: 30px;
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 100px;
     font-family: 'Space Grotesk';
     color: #0F298B;
+    font-size: 30px;
 }
 
 .aboveproducts li button {
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 10px;
-    padding: 0.5rem;
+    padding: 1.5rem;
     color: #FAFAFA;
     font-family: 'Space Grotesk';
     margin-top: 50px;
+    margin-left: 300px;
+    float: left;
+    width: 180px;
+    border: none;
 }
 
 .aboveproducts li option {
@@ -214,19 +249,20 @@ p.titleProduct {
     padding-bottom: 10rem;
     height: 700px;
 }
+
 /* Revisit */
-.choose-left img{
+.choose-left img {
     width: 100%;
     height: 700px;
-    position: relative;
+    /* position: relative; */
 }
 
 .choose-right {
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 200px;
     border: solid black;
     float: left;
-    width: 30%;
+    width: 40%;
     height: 500px;
 }
 
@@ -241,7 +277,7 @@ p.titleProduct {
 .choose-right p {
     font-family: 'Space Grotesk';
     font-size: 30px;
-    padding-top: 30px;
+    padding-top: 90px;
     padding-bottom: 30px;
 }
 
@@ -249,7 +285,7 @@ p.titleProduct {
     list-style: none;
     float: left;
     font-family: 'Space Grotesk';
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .element li {
@@ -261,7 +297,7 @@ p.titleProduct {
     float: left;
     padding-left: 10rem;
     font-family: 'Space Grotesk';
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .element2 li {
@@ -362,7 +398,7 @@ button {
     border: solid yellowgreen;
     margin-bottom: 30px;
     text-align: center;
-    height: 700px;
+    height: 800px;
     margin-left: 100px;
 }
 
@@ -383,7 +419,7 @@ button {
     border: solid red;
     float: left;
     width: 30%;
-    height: 400px;
+    height: 500px;
 }
 
 .esteemed-left h3 {
