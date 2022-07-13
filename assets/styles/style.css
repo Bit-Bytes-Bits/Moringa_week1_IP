@@ -42,6 +42,7 @@ ul.navbar li {
     border: none;
     font-family: 'Space Grotesk';
     font-size: 20px;
+    cursor: pointer;
 }
 
 .help {
@@ -118,7 +119,7 @@ ul.navbar li {
     list-style: none;
     margin-left: 30px;
     display: inline-block;
-    padding-right: 100px;
+    padding-right: 10px;
     font-family: 'Space Grotesk';
     color: #0F298B;
     font-size: 30px;
@@ -135,6 +136,7 @@ ul.navbar li {
     float: left;
     width: 180px;
     border: none;
+    cursor: pointer;
 }
 
 .aboveproducts li option {
@@ -198,12 +200,22 @@ p.titleProduct {
     box-shadow:3px 3px 3px 20px #FAFAFA;
 }
 
+.products-left:hover{
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+}
+
 .products-middle {
     margin-left: 30px;
     float: left;
     width: 30%;
     height: 500px;
     box-shadow:3px 3px 3px 20px #FAFAFA;
+}
+
+.products-middle:hover{
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
 }
 
 .products-right {
@@ -214,25 +226,30 @@ p.titleProduct {
     box-shadow:3px 3px 3px 20px #FAFAFA;
 }
 
+.products-right:hover{
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+}
+
 .choose {
-    height: 1000px;
-    margin-left: 100px;
+    height: 1200px;
+    margin-left: 50px;
 }
 
 .choose-left {
     float: left;
     width: 50%;
     padding-bottom: 10rem;
-    height: 700px;
+    /* height: 1000px; */
 }
 
 .choose-left img {
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
 }
 
 .choose-right {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: 200px;
     float: left;
     width: 40%;
@@ -382,7 +399,7 @@ button {
 #esteemed-sub {
     font-size: 30px;
     font-family: 'Space Grotesk';
-    padding-bottom: 1rem;
+    padding-bottom: 1%;
 }
 
 .esteemed-left {
@@ -406,7 +423,6 @@ button {
 }
 
 .country {
-    font-size: px;
     font-family: 'Space Grotesk';
 }
 
@@ -417,11 +433,12 @@ button {
     width: 150px;
     height: 50px;
     float: right;
+    border: none;
 }
 
 .foot {
     background-color: #0F298B;
-    display: inline-block;
+    display: flex;
     width: 100%;
 }
 
